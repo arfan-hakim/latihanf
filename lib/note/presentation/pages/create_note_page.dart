@@ -5,7 +5,7 @@ import 'package:note/data/models/note_model.dart';
 import '../bloc/note_bloc.dart';
  
 class CreateNotePage extends StatefulWidget {
-  const CreateNotePage({Key? key}) : super(key: key);
+  const CreateNotePage({super.key});
  
   @override
   State<CreateNotePage> createState() => _CreateNotePageState();

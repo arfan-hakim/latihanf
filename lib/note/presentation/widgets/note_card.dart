@@ -7,8 +7,7 @@ import '../bloc/note_bloc.dart';
 class NoteCard extends StatelessWidget {
   final Note note;
   final int index;
-  const NoteCard({Key? key, required this.note, required this.index})
-    : super(key: key);
+  const NoteCard({super.key, required this.note, required this.index});
  
   @override
   Widget build(BuildContext context) {

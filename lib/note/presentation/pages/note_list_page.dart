@@ -8,7 +8,7 @@ import '../../../injector.dart';
 import '../widgets/note_card.dart';
  
 class NoteListPage extends StatefulWidget {
-  const NoteListPage({Key? key}) : super(key: key);
+  const NoteListPage({super.key});
  
   @override
   State<NoteListPage> createState() => _NoteListPageState();

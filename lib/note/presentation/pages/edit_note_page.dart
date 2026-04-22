@@ -6,7 +6,7 @@ import '../bloc/note_bloc.dart';
  
 class EditNotePage extends StatefulWidget {
   final Note note;
-  const EditNotePage({Key? key, required this.note}) : super(key: key);
+  const EditNotePage({super.key, required this.note});
  
   @override
   State<EditNotePage> createState() => _EditNotePageState();

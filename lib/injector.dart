@@ -2,7 +2,10 @@ import 'package:get_it/get_it.dart';
 import 'package:note/note.dart';
 import 'package:core_services/core_services.dart';
 import 'note/presentation/bloc/note_bloc.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
+
+final supabase = Supabase.instance.client;
 final getIt = GetIt.instance;
 void setupInjector() {
   // Register repository and datasource

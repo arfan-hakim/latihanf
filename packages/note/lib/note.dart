@@ -1,4 +1,4 @@
-library note; 
+library; 
 export 'domain/entities/note.dart'; 
 export 'domain/repositories/note_repository.dart'; 
 export 'domain/usecases/get_notes.dart'; 
